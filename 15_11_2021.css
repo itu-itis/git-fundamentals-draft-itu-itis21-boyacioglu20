@@ -1,3 +1,7 @@
+body {
+    background-color:wheat;
+}
+
 h1 {
     font-size: 24pt;
     color:red;
@@ -6,7 +10,7 @@ h1 {
     text-align: center;
     border: thick solid red;
     padding: 1ex;
-    width: 50%;
+    width: 33%;
 }
 
 em {
@@ -34,4 +38,12 @@ li:first-child {
 p.centered {
     text-align: center;
     width: 50%;
+}
+
+ul#unorderedL {
+    background-color: purple;
+}
+
+ul#insideUL {
+    background-color: orange;
 }
